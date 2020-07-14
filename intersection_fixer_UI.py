@@ -17,7 +17,7 @@ class IT_OptionsWindow(object):
     def __init__(self):
         """Initialize common data attributes"""
         self.window = 'it_optionswindow'
-        self.title = 'Intersection Fixer'
+        self.title = 'Intersection Fixer V0.1'
         self.size = (300,150)
     def create(self):
         """Draw the window"""
@@ -97,7 +97,7 @@ class IT_OptionsWindow(object):
         )
     def help_menu_cmd(self, *args):
         """Display help command"""
-        mc.launch(web = 'https://github.com/GQ21') 
+        mc.launch(web = 'https://github.com/GQ21/Intersection_Fixer') 
     def check_btn_cmd(self, *args):
         """Check button command"""
         it.intersection()
